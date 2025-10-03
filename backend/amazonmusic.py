@@ -80,4 +80,15 @@ def get_stream(track_id):
         return jsonify({"success": False, "error": str(e)}), 500
 
 if __name__ == "__main__":
+    import sys
+    import json
+
+    query = sys.argv[1] if len(sys.argv) > 1 else None
+
+    # Login-Funktion
+    am = AmazonMusic(credentials=lambda: [input("Email: "), input("Password: ")])
+    results = am.search(query)
+    
+    print(json.dumps(results))
     app.run(host="0.0.0.0", port=5000)
+
