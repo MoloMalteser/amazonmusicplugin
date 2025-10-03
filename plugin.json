@@ -1,7 +1,11 @@
 {
-    "name": "Plugin name",
-    "author": "Plugin author",
-    "main_view_html": "main_view.html",
-    "tile_view_html": "",
-    "flags": ["_hot_reload", "_root"]
+  "name": "decky-amazon-music",
+  "version": "1.0.0",
+  "title": "Amazon Music Player",
+  "description": "Ein kleines Amazon Music Interface für das Steam Deck über Decky Loader.",
+  "author": "DeinName",
+  "license": "MIT",
+  "main": "main.py",
+  "frontend": "dist/index.html",
+  "icon": "assets/icon.png"
 }
