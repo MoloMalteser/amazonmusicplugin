@@ -1,11 +1,10 @@
 {
-  "name": "decky-amazon-music",
-  "version": "1.0.0",
-  "title": "Amazon Music Player",
-  "description": "Ein kleines Amazon Music Interface für das Steam Deck über Decky Loader.",
-  "author": "DeinName",
-  "license": "MIT",
-  "main": "main.py",
-  "frontend": "dist/index.html",
-  "icon": "assets/icon.png"
+  "name": "amazon-music",
+  "title": "Amazon Music",
+  "description": "Play Amazon Music on Steam Deck",
+  "version": "0.1.0",
+  "author": "Molo Malteser",
+  "main": "main.ts",
+  "frontend": "frontend/index.tsx",
+  "permissions": []
 }
