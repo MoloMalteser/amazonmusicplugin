@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "main.ts",
   "scripts": {
-    "start": "decky-frontend-lib start",
-    "build": "decky-frontend-lib build"
+    "start": "nxp decky-frontend-lib start",
+    "build": "nxp decky-frontend-lib build"
   },
   "dependencies": {
     "decky-frontend-lib": "^1.0.0",
